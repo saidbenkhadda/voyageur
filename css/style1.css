@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-top: 8px;
+}
+
+nav li {
+    display: inline;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.accueil {
+    text-decoration: underline;
+    color: red;
+}
+
+nav {
+    text-align: right;
+    padding: 35px;
+}
+
+header,
+main {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+body {
+    background-color: #FAEBD7;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+    border-top: 1px dashed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.baniere {
+    height: 200px;
+    background-image: url('../images/banniere.svg');
+    position: relative;
+    border-radius: 5px;
+}
+
+.box-image {
+    padding-right: 10px;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, .5);
+    right: 0;
+    left: 0;
+    top: 150px;
+}
+
+button {
+    float: right;
+    margin-top: -35px;
+    background-color: #740909;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.aside-logo {
+    width: 120px;
+}
+
+aside {
+    background-color: #8B8A82;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    width: 30%;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+}
+
+aside p {
+    text-align: left;
+    text-align: justify;
+}
+
+article {
+    width: 60%;
+    float: left;
+    text-align: justify;
+}
+
+footer {
+    clear: both;
+    border-top: 1px dashed;
+}
+
+.photos {
+    width: 100px;
+    border: 5px solid #6799E1;
+}
+
+.footer {
+    display: inline-block;
+    margin-right: 100px;
+    margin: 0px 30px 0px 30px;
+}
+
+.liste-amis {
+    color: #852424;
+}
+
+.reseaux-sociaux {
+    font-size: 1.2em;
+    word-spacing: 20px;
+}
